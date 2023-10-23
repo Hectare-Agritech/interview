@@ -1,0 +1,12 @@
+README.md
+**/node_modules
+**/package.json
+**/pnpm-lock.yaml
+**/.eslintrc.js
+**/.github
+**/.vscode
+**/coverage
+**/*.yml
+**/workspace.jsonc
+**/.bitmap
+**/clients/**/types.ts

@@ -1,0 +1,47 @@
+{
+  "editor.formatOnSave": true,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "search.quickOpen.includeSymbols": true,
+  "typescript.validate.enable": true,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "eslint.validate": ["javascript", "typescript", "html"],
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "*.js": "$(capture).js.map, $(capture).min.js, $(capture).d.ts",
+    "*.jsx": "$(capture).js",
+    "*.ts": "$(capture).js, $(capture).*.ts",
+    "*.tsx": "$(capture).ts",
+    "index.d.ts": "*.d.ts",
+    "workspace.jsonc": ".bitmap, readme.mdx, readme.md, overrides.json, pre-commit.sh",
+    "shims.d.ts": "*.d.ts",
+    "dockerfile": ".dockerignore, dockerfile*",
+    "package.json": "esbuild.js, .editorconfig, .gitignore, .eslint*, .node-version, .npm*, .pnpm*, .prettier*, .vscode*, jest.config.*, jsconfig.*, package-lock.json, pnpm*, prettier*, tsconfig.*, workspace.json",
+    "readme.md": "authors, backers.md, changelog*.md, code_of_conduct.md, readme*, security.md, sponsors.md",
+  },
+  "eslint.codeActionsOnSave.mode": "problems",
+  "search.useIgnoreFiles": false
+}
